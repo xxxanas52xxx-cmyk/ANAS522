@@ -774,8 +774,8 @@ def get_connection_status():
 # التي تضيفها بنفسك من لوحة تحكم Render (Environment tab) باسم:
 #   QUOTEX_EMAIL
 #   QUOTEX_PASSWORD
-AUTO_EMAIL = os.environ.get("QUOTEX_EMAIL")
-AUTO_PASSWORD = os.environ.get("QUOTEX_PASSWORD")
+AUTO_EMAIL = os.environ.get("QUOTEX_EMAIL", "xxanasx52@gmail.com")
+AUTO_PASSWORD = os.environ.get("QUOTEX_PASSWORD", "anas775312956")
 
 def auto_login_on_boot():
     """يسجّل الدخول تلقائيًا عند إقلاع السيرفر السحابي بدون تدخل يدوي،
